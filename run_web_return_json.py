@@ -182,7 +182,7 @@ def get_objects(image, threshold=0.5):
 #--------------------------------------------------------------------------------------------------------------------------------
 app = Flask(__name__, static_folder="web_static")
 # if we save file to disk, we must use the following configuration.
-upload_folder = '/home/santiago/env/tensorflow/models/research/object_detection/test_images/'
+upload_folder = '~/tensorflow/models/research/object_detection/test_images/'
 app.config['UPLOAD_FOLDER'] = upload_folder
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif', 'bmp'}
 @app.route("/")
