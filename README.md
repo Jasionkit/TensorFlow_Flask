@@ -28,3 +28,16 @@ you will see a picture in your browser
 run_web_return_json.py(models/research/object_detection/run_web_return_json.ipynb)
 
 you will see json string in your browser
+
+
+Dependencies
+
+pip3 install matplotlib
+
+pip3 install Pillow
+
+pip3 install flask
+
+pip3 install opencv-python
+
+pip3 install requests
